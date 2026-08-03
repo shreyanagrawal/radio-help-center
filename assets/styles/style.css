@@ -354,10 +354,14 @@ h4 {
 }
 
 .btn-primary {
-    background: var(--purple) !important;
+    background: #cd4715 !important;
     color: #fff;
     box-shadow: 0 8px 24px rgb(78 42 147 / 35%);
     border: 1px solid #5500f7 !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+    padding: 20px !important;
+    border-radius: 40px !important;
 }
 
 .btn-primary:hover {
