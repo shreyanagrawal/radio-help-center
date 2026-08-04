@@ -8,9 +8,9 @@
     --border: #e5e7eb;
 }
 .sirius-hero {
-    padding: 120px 0 90px;
     background: url("/assets/images/banner1.webp");
     color: #fff;
+    min-height: auto !important;
 }
 .hero-tag {
     display: inline-block;
@@ -46,6 +46,9 @@
 }
 .hero-inner .hero-figure{
     position: relative !important;
+}
+.hero-inner{
+    padding: 40px 0px 70px !important;
 }
 .trust-strip {
     margin-top: -45px;
@@ -288,7 +291,6 @@
 }
 @media(max-width:991px) {
     .sirius-hero {
-        padding: 90px 0 70px;
         text-align: center;
     }
     .sirius-hero h1 {
@@ -306,6 +308,10 @@
     }
     .cta-section h2 {
         font-size: 2.2rem;
+    }
+    .hero-inner .row{
+        flex-wrap: wrap-reverse;
+        row-gap: 50px;
     }
 }
 @media(max-width:767px) {
