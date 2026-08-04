@@ -44,6 +44,9 @@
     max-width: 100%;
     animation: float 5s ease-in-out infinite;
 }
+.hero-inner .hero-figure{
+    position: relative !important;
+}
 .trust-strip {
     margin-top: -45px;
     position: relative;
