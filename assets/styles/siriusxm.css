@@ -182,7 +182,7 @@
 
 .popup-banner {
     position: relative;
-    background: url("/assets/images/popup_banner.png");
+    background: url("/assets/images/popup_banner.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 10px 15px 80px;
