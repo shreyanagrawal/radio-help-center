@@ -344,7 +344,7 @@ span.number_bg {
     font-size: 14px;
     margin-top: -10px;
 }
-.popup-content .footer-bottom{
+.radio-help-popup .footer-bottom{
     position: fixed;
     bottom: 0px;
     background: var(--navy-soft);
@@ -353,9 +353,10 @@ span.number_bg {
     align-items: center;
     padding: 10px;
     gap: 5px;
+    z-index: 9;
 }
 
-.popup-content .footer-bottom a{
+.radio-help-popup .footer-bottom a{
     color: #fff !important;
     text-decoration: none;
 }
