@@ -182,10 +182,7 @@
 
 .popup-banner {
     position: relative;
-    background: url("/assets/images/banner1.webp"), radial-gradient(ellipse 60% 80% at 78% 30%, rgba(32, 166, 160, 0.45), transparent 60%),
-        radial-gradient(ellipse 50% 60% at 95% 85%, rgba(242, 138, 36, 0.32), transparent 55%), linear-gradient(115deg, #0B2854 0%, #123B78 45%, #0E4F5A 100%);
-    background-size: cover;
-    background-position: top right;
+    background: url("/assets/images/popup_banner.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 10px 15px 80px;
